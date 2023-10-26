@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header{
+    background-image: url(img/pexels-ann-poan-5797903.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+  background-color: #CDC2AE;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  
+  
+
+}
+
+
+/* .bloc{
+    height: 80px;
+    width: 100px;
+    background-color: #A8A088;
+    border-radius: 30px;
+} */
+
+img{
+    border-radius: 50%; 
+    height: 60px;
+    width: 60px;
+    
+    top: 10px;
+    left: 10px;
+   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0,6s ease ;
+}
+
+ul li a:hover{
+    background: #ffff;   
+    color: #CDC2AE;
+}
+
+
+
+
+.computer{
+    background-image: url("img/pexels-ann-poan-5797903.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    height: 600px;
+    }
+
+    .developpeuse{
+    
+        top: 70%;
+        left: 30%;
+        font-size: 60px;
+        
+    }
+   
+    
+
+
+/*Présentation*/
+
+
+.body1{
+    background-color: #CDC2AE;
+    width: 100%;
+    display: flex;
+}
+.Présentation{
+    height: 225px;
+    width: 100%;
+
+}
+    
+
+.jemappelle{
+    
+    height: 500px;
+    width: 70%;
+   
+   font-size: medium;
+}
+
+ 
+.rectangle{
+    display: flex;
+    justify-content: center;
+
+    background-color: white;
+    height: 65vh;
+    width: 75vw;
+
+}
+
+
+
+
+
+/*Compétences*/
+
+.titrecomp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.lesrectangles{
+    display: flex;
+    justify-content: center;
+    
+
+}
+    
+
+.rectanglefoncé{
+    height: 400px;
+    width: 300px;
+    background-color: #A8A088;
+    z-index: 1;
+    margin: -40px;
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.ul1{
+    height: 200px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    padding: 20%;
+    
+}
+
+
+.ul2{
+    height: 200px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    padding: 25%;
+}
+
+.rectangleclair{
+    height: 400px;
+    width: 300px;
+    background-color: #CDC2AE;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.logo3{ 
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    top: 1;
+    left: 1;
+    
+    
+    
+}
+
+.divfleur{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+
+.fleur2{
+background-image: url(img/pexels-karolina-grabowska-4207709.jpg);
+height: 300px;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 65%;
+margin-top: 50px;
+}
+
+
+
+
+
+
+/*Contacts*/
+
+
+.global{
+
+    height: 800px;
+    width: 100%;
+    display: flex;
+
+}
+
+.global1{
+
+    display: flex;
+    width: 50%;
+    height: 800px;
+}
+
+.logo5{
+    height: 800px;
+    width: 20%;
+}
+
+.logo55{
+    height: 60px;
+    width: 60px;
+}
+
+
+.fleur{
+
+    background: url(img/pexels-irina-iriser-1447987.jpg);
+    height: 820px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+
+.merci{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.RS{
+    display: flex;
+    justify-content:space-around;  
+    height: 125px;
+    width: 100%;
+}
+    
+
+.RS img{
+    height: 60px;
+    width: 60px;
+
+}
+
+.adresse{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+.liste{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.global1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
