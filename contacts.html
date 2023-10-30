@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-     href="img/new logo.png"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,41 +17,40 @@
             <img src="img/new logo.png" alt="logo" class="logo55">
         </div>
          
-        <div class="fleur"></div>
+
     <!--Cotée droit-->
-        <div class="global1">
+        
 
        <div class="merci">
           <h1>Merci</h1>
       </div>
    
-    <div class="adresse">
-        <ul class="liste">
-            <li>chbasmaa@gmail.com</li>
-            <li>07.00.00.00.00</li>
-           <li> 29 rue de l'Alc</li>
-
-        </ul>
-    </div>
-
-    
-
-    <div class="RS">
-
-       
-          <img src="img/instagram.png" alt="logo instagram">
-        
-
+      <div class="container">
+        <div class="formu">
+            <h1>Contact</h1>
+            <form action="/action_page.php">
+            <label for="fname">Nom</label>
+            <input type="text" id="Nom" name="prénom" placeholder="Nom">
       
-          <img src="img/facebook.png" alt="logo facebook">
-       
-       
-       
-         <img src="img/linkedin.png" alt="logo linkedin">
+            <label for="sujet">Objet</label>
+            <input type="text" id="Objet" name="Objet" placeholder="Objet">
       
-
-    </div>
+            <label for="emailAddress">Email</label>
+            <input id="emailAddress" type="email" name="email" placeholder="email">
+      
+      
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="texte" style="height:200px"></textarea>
+      
+            <input type="submit" value="send">
+            </form>
         </div>
+    </div>
+           
+      
+
+     
+        
 
     </div>
 </body>
