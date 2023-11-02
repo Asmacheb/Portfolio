@@ -4,22 +4,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-   
 }
+
 a{
   text-decoration: none;
 }
+
+/* Styles pour (ordi) */
+@media screen and (min-width:1024px){
+
+  .menuburger{
+    display: none;
+  } 
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
 .background{
-    background-image: url(img/pexels-ann-poan-5797903.jpg);
+    background-image: url(img/orditransparent.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
     align-items: center;
     display: flex;
-    opacity:80%;
     
-   
 }
+
 
 .newnav{
   display: flex;
@@ -27,13 +41,7 @@ a{
   margin-top: -30px;
 }
 
-/* .lignenav{
-  
-    border: 1px solid black;
-    width: 100%; 
-    margin: 10px 0; 
 
-} */
 
 
 .navbar{
@@ -47,15 +55,7 @@ a{
 }
 
 
-  .verticallogo2{
-    width: 5px; /* Largeur de la ligne */
-    height: 740px; /* Hauteur de la ligne (ajustez selon vos besoins) */
-    background-color: black; /* Couleur de la ligne */
-    margin-left: 796px;
-    position: absolute; 
-    z-index: 2;
-
-}
+ 
 
 .logocentre img{
   height: 300px;
@@ -72,12 +72,13 @@ a{
      
     height: 200px;
     width: 800px;
-    background-color: white;
+    background-color: #CDC2AE;
     border-radius: 30px;
-    color: #A8A088;
+    color: white;
     margin: auto;
     margin-right: 99px;
     margin-top: 30%;
+    border: 2px solid white;
     
 }
 .developpeuse h1{
@@ -105,72 +106,180 @@ a{
     border: 1px solid #ffff;
     margin: 10px;
     font-weight: 500;
-    transition: 0,6s ease ;
-
-  
+    transition: 0,6s ease ; 
 }
+
 
 .UL li:hover{
     background: #ffff;   
     color: #CDC2AE;
 }
 
-   
+/* Styles pour  (tablette) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+body{
+  height: 100vh;
+}
+  .background {
+    display: flex;
+    flex-direction: column-reverse;
+ 
     
+  }
+  .newnav {
+    display: none;
+  }
+
+  .menuburger img{
+    height: 60px;
+    width: 60px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .logocentre img {
+    height: 200px; 
+    width: 200px; 
+    margin: 0 auto; 
+    margin-left: 5%;
+    margin-bottom: 50%;
+  }
+  
+
+  .bloc {
+    width: 50%; 
+    margin: auto;
+   
+    m
+
+  }
+
+}
+   
+    /* Styles pour  (mobile) */
+    
+@media screen and (max-width: 767px) {
+  .background {
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+  }
+
+  .newnav {
+    display: none;
+  }
+  .menuburger img{
+    
+    height: 50px;
+    width: 50px;
+  }
+  .navbar {
+   align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .logocentre img {
+    height: 200px; 
+    width: 200px; 
+    margin: 0 auto; 
+    margin-left: 70%;
+   
+  }
+
+  .bloc {
+    width: 90%; 
+    margin: auto;
+    margin-top: 40%;
+   margin-left: -25%;
+   margin-right: 20%;
+  
+  }
+
+
+}
 
 
 /*Présentation*/
 
 
-.fond{
-    background-color: #CDC2AE;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
+.fond {
+  background-color: #CDC2AE;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
   background-size: cover;
 }
-.Présentation{
-    text-transform: uppercase;
-    height: 225px;
-    width: 100%;
-    margin-top: 15%;
-    margin-left: 5%;
-    letter-spacing: 5px;
+
+.Présentation {
+  text-transform: uppercase;
+  height: 225px;
+  width: 100%;
+  margin-top: 15%;
+  margin-left: 5%;
+  letter-spacing: 5px;
 }
-    
+
 .lignedessus {
-  border: none; 
+  border: none;
   border-top: 2px solid black;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
 .lignedessous {
-  border: none; 
+  border: none;
   border-top: 2px solid black;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
-.jemappelle{
-   text-align: center;
-   width: 50%;
-   font-size: 23px;
-   margin-right: 10%;
-   margin-top: 3%;
-   line-height: 40px;
-
+.jemappelle {
+  text-align: center;
+  width: 50%;
+  font-size: 23px;
+  margin-right: 10%;
+  margin-top: 3%;
+  line-height: 40px;
 }
-   
 
-
-.rectangle{
-    
-   display: flex;
-    padding: 10%;
-    background-color: white;
-    height: 90vh;
-    width: 95vw;
-    margin:  auto; 
+.rectangle {
+  display: flex;
+  padding: 10%;
+  background-color: white;
+  height: 90vh;
+  width: 95vw;
+  margin: auto;
 }
+
+
+
+
+
+
+
+/* Styles pour les écrans de téléphone */
+
+@media screen and (max-width: 768px) {
+  .Présentation {
+      font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
+      margin-top: 10%;
+      letter-spacing: 3px;
+  }
+
+  .jemappelle {
+      width: 90%; /* Ajustez la largeur du texte selon vos besoins */
+      font-size: 18px; /* Ajustez la taille de la police selon vos besoins */
+      margin-right: 5%;
+      margin-top: 5%;
+      line-height: 30px;
+  }
+
+  .rectangle {
+      padding: 5%; /* Ajustez la marge intérieure selon vos besoins */
+  }
+}
+
 
 
 
@@ -178,27 +287,22 @@ a{
 
 /*Compétences*/
 
-.titrecomp{
+/* Styles pour les écrans larges */
+.titrecomp {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-right: 34%;
     letter-spacing: 5px;
-    font-size: 40px ;
- 
+    font-size: 40px;
 }
 
-
-
-.lesrectangles{
+.lesrectangles {
     display: flex;
     justify-content: center;
-    
-
 }
-    
 
-.rectanglefoncé{
+.rectanglefoncé {
     height: 400px;
     width: 300px;
     background-color: #9A9283;
@@ -207,10 +311,9 @@ a{
     display: flex;
     justify-content: center;
     border: 3px solid white;
-
 }
 
-.ul1{
+.ul1 {
     height: 200px;
     width: 150px;
     color: white;
@@ -218,15 +321,13 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 25px;
+    font-size: 3vh;
     padding: 20%;
     list-style: none;
     line-height: 40px;
-    
 }
 
-
-.ul2{
+.ul2 {
     height: 200px;
     width: 150px;
     color: white;
@@ -234,49 +335,109 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: x-large;
+    font-size: 3vh;
     padding: 20%;
     line-height: 40px;
     list-style: none;
 }
 
-.rectangleclair{
+.rectangleclair {
     height: 400px;
     width: 300px;
     background-color: #CDC2AE;
     display: flex;
     justify-content: center;
     border: 3px solid white;
-    
-   
-}
- 
-.titrelogo{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-
 }
 
-.divfleur{
+.titrelogo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.divfleur {
     display: flex;
     height: 80vh;
     align-items: center;
 }
 
-.fleur2{
-background-image: url(img/pexels-karolina-grabowska-4207709.jpg);
-height: 500px;
-width: 100%;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-display: flex;
-justify-content: center;
-align-items: center;
-opacity: 65%;
-margin-top: 40px;
+.fleur2 {
+    background-image: url(img/pexels-karolina-grabowska-4207709.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 65%;
+    margin-top: 40px;
+}
 
+
+/* Media Query pour les écrans de téléphone */
+@media screen and (max-width: 480px) {
+    .titrecomp {
+        margin-right: 0; /* Réinitialise la marge */
+        font-size: 25px; /* Réduit la taille de la police */
+    }
+
+    .lesrectangles {
+        flex-direction: column; /* Met les rectangles en colonne */
+        align-items: center; /* Centre les rectangles */
+    }
+
+    .rectanglefoncé,
+    .rectangleclair {
+        height: auto; /* Ajuste la hauteur en fonction du contenu */
+        width: 100%; /* Remplit la largeur de l'écran */
+        margin: 0; /* Réinitialise la marge */
+    }
+
+    .ul1,
+    .ul2 {
+        font-size: 1vh; /* Réduit la taille de la police */
+        padding: 10px; /* Réduit le rembourrage */
+      line-height: 3vh;
+       
+    }
+
+    .ul2{
+      margin-top: vh;
+    }
+}
+
+
+/* Styles pour les tablettes */
+@media screen and (max-width: 768px) {
+  /* Styles pour le titre COMPÉTENCES */
+  .titrecomp {
+      font-size: 30px; /* Réduire la taille du texte */
+      margin-right: 0; /* Supprimer la marge à droite */
+  }
+
+  /* Styles pour les rectangles */
+  .lesrectangles {
+      flex-direction: column; /* Afficher les rectangles en colonne */
+  }
+
+  .rectanglefoncé,
+  .rectangleclair {
+      width: 100%; /* Remplir la largeur de l'écran */
+      height: auto; /* Ajuster la hauteur automatiquement */
+      margin: 10px 0; /* Ajouter de l'espace entre les rectangles */
+  }
+
+  .ul1,
+  .ul2 {
+      width: 100%;
+      padding: 10px;
+      font-size: 2vh;
+      
+
+ }
 }
 
 
@@ -344,7 +505,7 @@ margin-top: 40px;
     height: 50px;
     width: 60%;
     background-color: #CDC2AE;
-    background-color: ;
+
     border-radius: 50px;
     border: 3px solid white;
   }
@@ -591,4 +752,8 @@ body .global{
   
   form  .lecontact{
     margin-bottom: 10%;
+  }
+
+  @media screen and ({
+    
   }
