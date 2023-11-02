@@ -4,16 +4,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-
+   
 }
-
+a{
+  text-decoration: none;
+}
 .background{
     background-image: url(img/pexels-ann-poan-5797903.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
     align-items: center;
-    display: flex
+    display: flex;
+    opacity:80%;
+    
    
 }
 
@@ -48,8 +52,9 @@
     height: 740px; /* Hauteur de la ligne (ajustez selon vos besoins) */
     background-color: black; /* Couleur de la ligne */
     margin-left: 796px;
-    position: absolute; /* Position absolue pour le positionnement */
-    bottom: 0;
+    position: absolute; 
+    z-index: 2;
+
 }
 
 .logocentre img{
@@ -59,6 +64,8 @@
   display: flex;
   margin-left: 650px;
   margin-bottom:40px ;
+
+  
 }
 
 .bloc{
@@ -80,7 +87,7 @@
 
 }
 
-ul{
+.UL{
     display: flex;
     list-style: none;
     float: right;
@@ -90,7 +97,7 @@ ul{
   
 }
 
-ul li{
+.UL li{
   
     color: white;
     padding: 10px 20px;
@@ -103,7 +110,7 @@ ul li{
   
 }
 
-ul li:hover{
+.UL li:hover{
     background: #ffff;   
     color: #CDC2AE;
 }
@@ -128,7 +135,7 @@ ul li:hover{
     width: 100%;
     margin-top: 15%;
     margin-left: 5%;
-
+    letter-spacing: 5px;
 }
     
 .lignedessus {
@@ -148,7 +155,8 @@ ul li:hover{
    width: 50%;
    font-size: 23px;
    margin-right: 10%;
-   margin-top: 7%;
+   margin-top: 3%;
+   line-height: 40px;
 
 }
    
@@ -162,9 +170,6 @@ ul li:hover{
     height: 90vh;
     width: 95vw;
     margin:  auto; 
-    
-
-
 }
 
 
@@ -177,6 +182,10 @@ ul li:hover{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-right: 34%;
+    letter-spacing: 5px;
+    font-size: 40px ;
+ 
 }
 
 
@@ -192,14 +201,12 @@ ul li:hover{
 .rectanglefoncé{
     height: 400px;
     width: 300px;
-    background-color: #A8A088;
+    background-color: #9A9283;
     z-index: 1;
     margin: -40px;
     display: flex;
     justify-content: center;
-    
-
-
+    border: 3px solid white;
 
 }
 
@@ -211,8 +218,10 @@ ul li:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: x-large;
+    font-size: 25px;
     padding: 20%;
+    list-style: none;
+    line-height: 40px;
     
 }
 
@@ -226,7 +235,9 @@ ul li:hover{
     flex-direction: column;
     align-items: center;
     font-size: x-large;
-    padding: 25%;
+    padding: 20%;
+    line-height: 40px;
+    list-style: none;
 }
 
 .rectangleclair{
@@ -235,19 +246,16 @@ ul li:hover{
     background-color: #CDC2AE;
     display: flex;
     justify-content: center;
+    border: 3px solid white;
     
    
 }
+ 
+.titrelogo{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 
-.logo3{ 
-    height: 60px;
-    width: 60px;
-    position: fixed;
-    top: 1;
-    left: 1;
-    
-    
-    
 }
 
 .divfleur{
@@ -258,7 +266,7 @@ ul li:hover{
 
 .fleur2{
 background-image: url(img/pexels-karolina-grabowska-4207709.jpg);
-height: 300px;
+height: 500px;
 width: 100%;
 background-repeat: no-repeat;
 background-position: center;
@@ -267,7 +275,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 opacity: 65%;
-margin-top: 50px;
+margin-top: 40px;
+
 }
 
 
@@ -278,249 +287,84 @@ margin-top: 50px;
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-color: #CDC2AE;
     background-size: cover;
-}
+    background-image: url(img/fondtransparent.jpg);
+   
+   
+  }
 
-
+ 
 .dwwm{  
      width: 400px;
-    letter-spacing: 10px;
-    font-size: large; 
-    text-align: center;
-    
-    
+    letter-spacing: 20px;
+  
+    color: black; 
+    margin-left: 5%;
+    display: flex;
+   
+      margin-bottom: 200%;
+     font-size: 2em;
+     /* height: 10%; */
 }
 
-.ordi{
-    height: 100%;
-    background-image: url(img/pexels-ann-poan-5797903.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 75%;
-    border-radius: 10%; 
-    width: 300px;
-    
-}
 
 .diagramme {
-    height: 90%;
-    width: 100%;
+  /* margin: auto; */
+    height: 60%;
+    width: 200%;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin-right: 30%;
+    
   }
-  .elementscentre{
-display: flex;
-flex-direction: column;
-height: 100%;
-  }
-.dwwm{
-  margin-right: 60%;
-  width: 100%;
-  font-size: 30px;
-  margin-bottom: 10%;
-  letter-spacing: 10px;
-}
+ 
+
 
  .cotégauche{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90%;
+    height: 70%;
     width: 30%;
     margin-top: 15%;
+    margin-left: 15%;
  }
   
-  .html {
+  .skill {
     height: 50px;
-    width: 70%;
-    background-color: white;
+    width: 90%;
+    background-color: black;
     border-radius: 50px;
+    margin: 10%;
+  
   }
-  .html2 {
+  .skill2 {
     height: 50px;
     width: 60%;
-    background-color: #A8A088;
+    background-color: #CDC2AE;
+    background-color: ;
     border-radius: 50px;
     border: 3px solid white;
   }
 
-.logohtml{
+.leslogos{
     height: 50px;
     width: 50px;
     display: flex;
     margin-left: -40%;
 }
-
-  .angular {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .angular2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-
-  .logoangular{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
-
-
-  .js {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .js2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-
-  .logojs{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
-
-  .php {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .php2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-    
-  .logophp{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
   .cotédroit{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90%;
+    height: 70%;
     width: 30%;
     margin-top: 15%;
+    margin-right: 15%;
     
   }
-
-  .sql {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-  }
-  .sql2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-
-  .logosql{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
-  .docker {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .docker2 {
-    height: 50px;
-    width: 60%;
-    background-color:#A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-
-  .logodocker{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
-  .figma {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .figma2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-
-  .logofigma{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-}
-
-  .git {
-    height: 50px;
-    width: 70%;
-    background-color: white;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .git2 {
-    height: 50px;
-    width: 60%;
-    background-color: #A8A088;
-    border-radius: 50px;
-    border: 3px solid white;
-  }
-  
-  .logogit{
-    height: 50px;
-    width: 50px;
-    display: flex;
-    margin-left: -40%;
-  
-}
 
 
 /*CommunityManager*/
@@ -548,7 +392,7 @@ height: 100%;
 .seo {
     height: 50px;
     width: 50%;
-    background-color: #A8A088;
+    background-color: black;
     border-radius: 50px;
     margin-bottom: 3%;
   }
@@ -557,6 +401,7 @@ height: 100%;
     width: 40%;
     background-color: #CDC2AE;
     border-radius: 50px;
+    border: 5px solid white;
   }
 
 .logoseo{
@@ -569,7 +414,7 @@ height: 100%;
   .capcut {
     height: 50px;
     width: 50%;
-    background-color: #A8A088;
+    background-color: black;
     border-radius: 50px;
     
   }
@@ -578,6 +423,7 @@ height: 100%;
     width: 40%;
     background-color: #CDC2AE;
     border-radius: 50px;
+    border: 5px solid white;
   }
 
   .logocapcut{
@@ -592,7 +438,7 @@ height: 100%;
   .canva {
     height: 50px;
     width: 50%;
-    background-color: #A8A088;
+    background-color: black;
     border-radius: 50px;
     margin-top: 50px;
   }
@@ -601,6 +447,7 @@ height: 100%;
     width: 40%;
     background-color: #CDC2AE;
     border-radius: 50px;
+    border: 5px solid white;
   }
 
   .logocanva{
@@ -614,7 +461,7 @@ height: 100%;
   .MDRS {
     height: 50px;
     width: 50%;
-    background-color: #A8A088;
+    background-color: black;
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 3%;
@@ -624,6 +471,7 @@ height: 100%;
     width: 40%;
     background-color: #CDC2AE;
     border-radius: 50px;
+    border: 5px solid white;
   }
 
   .management{
@@ -634,7 +482,7 @@ height: 100%;
   .flyer {
     height: 50px;
     width: 50%;
-    background-color: #A8A088;
+    background-color: black;
     border-radius: 50px;
   }
   .flyer2 {
@@ -642,6 +490,7 @@ height: 100%;
     width: 40%;
     background-color: #CDC2AE;
     border-radius: 50px;
+    border: 5px solid white;
   }
 
 
@@ -717,7 +566,7 @@ body .global{
   }
   
   input[type=submit]:hover {
-    background-color: #1872D9;
+    background-color: black;
   }
   
   
@@ -732,6 +581,7 @@ body .global{
     display: flex;
     align-items: center;
     height: 80%;
+    background-color: rgba(255, 255, 255, 0.33);
   }
 
   form{
