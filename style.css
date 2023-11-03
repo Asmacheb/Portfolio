@@ -18,11 +18,9 @@ a{
   } 
 }
 
-
 a{
   text-decoration: none;
 }
-
 
 .background{
     background-image: url(img/orditransparent.jpg);
@@ -30,19 +28,14 @@ a{
     background-size: cover;
     background-position: center;
     align-items: center;
-    display: flex;
-    
+    display: flex;   
 }
-
 
 .newnav{
   display: flex;
   align-content: space-between;
   margin-top: -30px;
 }
-
-
-
 
 .navbar{
   background-color: #CDC2AE;
@@ -54,22 +47,16 @@ a{
   height: 80px; 
 }
 
-
- 
-
 .logocentre img{
   height: 300px;
   width: 300px;
   border-radius: 50%;
   display: flex;
   margin-left: 650px;
-  margin-bottom:40px ;
-
-  
+  margin-bottom:40px ; 
 }
 
-.bloc{
-     
+.bloc{ 
     height: 200px;
     width: 800px;
     background-color: #CDC2AE;
@@ -78,14 +65,13 @@ a{
     margin: auto;
     margin-right: 99px;
     margin-top: 30%;
-    border: 2px solid white;
-    
+    border: 2px solid white;   
 }
+
 .developpeuse h1{
   text-align: center;
   font-size: 37x;
   margin-top: 54px;
-
 }
 
 .UL{
@@ -95,11 +81,10 @@ a{
     margin-top: 20px;
    justify-content: space-between;
    margin-left: 87%;
-  
 }
 
+
 .UL li{
-  
     color: white;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -123,10 +108,9 @@ body{
 }
   .background {
     display: flex;
-    flex-direction: column-reverse;
- 
-    
+    flex-direction: column-reverse;  
   }
+
   .newnav {
     display: none;
   }
@@ -154,15 +138,13 @@ body{
     width: 50%; 
     margin: auto;
    
-    m
-
   }
 
 }
    
     /* Styles pour  (mobile) */
     
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .background {
     height: 100vh; /* Ajustez la hauteur selon vos besoins */
   }
@@ -185,7 +167,7 @@ body{
     height: 200px; 
     width: 200px; 
     margin: 0 auto; 
-    margin-left: 70%;
+    margin-left: 57%;
    
   }
 
@@ -193,8 +175,8 @@ body{
     width: 90%; 
     margin: auto;
     margin-top: 40%;
-   margin-left: -25%;
-   margin-right: 20%;
+   /* margin-left: -30%;
+   margin-right: 20%; */
   
   }
 
@@ -236,31 +218,27 @@ body{
 
 .jemappelle {
   text-align: center;
-  width: 50%;
-  font-size: 23px;
+  width: 54%;
+  font-size: 22px;
   margin-right: 10%;
-  margin-top: 3%;
   line-height: 40px;
+  margin-bottom: auto";
 }
 
 .rectangle {
   display: flex;
   padding: 10%;
   background-color: white;
-  height: 90vh;
-  width: 95vw;
+  height: 84vh;
+  width: 80vw;
   margin: auto;
+
 }
-
-
-
-
-
 
 
 /* Styles pour les écrans de téléphone */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .Présentation {
       font-size: 24px; /* Ajustez la taille de la police selon vos besoins */
       margin-top: 10%;
@@ -381,7 +359,7 @@ body{
 @media screen and (max-width: 480px) {
     .titrecomp {
         margin-right: 0; /* Réinitialise la marge */
-        font-size: 25px; /* Réduit la taille de la police */
+        font-size: 6px; /* Réduit la taille de la police */
     }
 
     .lesrectangles {
@@ -447,62 +425,54 @@ body{
 .arrièreplan{
     height: 100vh;
     width: 100vw;
-    display: flex;
+    background-position: center ;
     background-size: cover;
     background-image: url(img/fondtransparent.jpg);
-   
-   
   }
 
- 
-.dwwm{  
-     width: 400px;
-    letter-spacing: 20px;
-  
-    color: black; 
-    margin-left: 5%;
-    display: flex;
-   
-      margin-bottom: 200%;
-     font-size: 2em;
-     /* height: 10%; */
+#navbarDWWM{
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  text-align: center;
+   color: black; 
+    font-size: 2em;   
+} 
+
+.leh1{
+  margin-left: 37vw;
+  letter-spacing: 1vw;
 }
 
-
 .diagramme {
-  /* margin: auto; */
+  margin: auto;
     height: 60%;
-    width: 200%;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
-    background-color: white;
-    align-items: center;
-    margin-right: 30%;
-    
+    background-color: rgba(255, 255, 255, 0.706);
+    margin-right: 30%; 
   }
  
-
-
  .cotégauche{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     height: 70%;
-    width: 30%;
-    margin-top: 15%;
-    margin-left: 15%;
+    width: 50%;
+    margin: auto;
+    margin-left: 5%;
  }
   
   .skill {
-    height: 50px;
-    width: 90%;
+    height: 5vh;
+    width: 60%;
     background-color: black;
     border-radius: 50px;
-    margin: 10%;
   
   }
   .skill2 {
-    height: 50px;
+    height: 5vh;
     width: 60%;
     background-color: #CDC2AE;
 
@@ -521,10 +491,9 @@ body{
     flex-direction: column;
     align-items: center;
     height: 70%;
-    width: 30%;
-    margin-top: 15%;
-    margin-right: 15%;
-    
+    width: 50%;
+    justify-content: space-around;
+    margin: auto;
   }
 
 
@@ -594,8 +563,6 @@ body{
     margin-left: -40%;
 }
 
-
-
   .canva {
     height: 50px;
     width: 50%;
@@ -626,6 +593,9 @@ body{
     border-radius: 50px;
     margin-top: 50px;
     margin-bottom: 3%;
+    
+   
+
   }
   .MDRS2 {
     height: 50px;
@@ -633,6 +603,7 @@ body{
     background-color: #CDC2AE;
     border-radius: 50px;
     border: 5px solid white;
+   
   }
 
   .management{
@@ -655,6 +626,21 @@ body{
   }
 
 
+  @media screen and (max-width: 480px) {
+    .logoseo{
+      margin-left: -60px;
+    }
+    .logocapcut{
+      margin-left: -60px;
+    }
+    .logocanva{
+      margin-left: -60px;
+    }
+    .MDRS2{
+      font-size: 20%;
+  }
+}
+
 
 /*Contacts*/
 
@@ -676,6 +662,7 @@ body .global{
     margin-left: 1%;
     height: 60px;
     width: 60px;
+   
 }
 
 .logo55{
@@ -746,14 +733,14 @@ body .global{
   }
 
   form{
-    width: 800px;
-    
+    width: 800px; 
   }
   
   form  .lecontact{
     margin-bottom: 10%;
   }
 
-  @media screen and ({
-    
+  @media screen and (max-width: 480px){
+    .merci { font-size: 20px; 
+    }  
   }
